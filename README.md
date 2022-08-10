@@ -1,0 +1,1 @@
+A simple node script that uses Mediawiki API and discord.js to fetch recent updates of a Wikia and post it in a discord channel.
