@@ -32,7 +32,7 @@ utc_time=new Date();
 utc_time.setHours(utc_time.getHours() - 1);
 //time_end=calc_time(utc_time)[1]; // For Testing purposes
 time_start=utc_time.toISOString();//calc_time(utc_time)[0] //Calling the function for building ISO 8601 with UTC time & 1h offset
-//console.log(calc_time(utc_time)); //Debugging line
+//console.log(time_start); //Debugging line
 full_url = url+"api.php?action=query&format=json&list=recentchanges&rcprop=user|comment|title|timestamp|sizes&rcdir=newer&rcstart="+time_start; //Building the API call
  console.log(full_url); //Debugging line
 
