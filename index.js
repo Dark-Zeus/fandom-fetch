@@ -66,7 +66,7 @@ axios
   });
 }
 
-setInterval(httpGet,3600000); //Test mode set to 3.6 secounds //calling the fetch function every 1h
+setInterval(httpGet,5000); //Test mode set to 3.6 secounds //calling the fetch function every 1h
 
 
 
