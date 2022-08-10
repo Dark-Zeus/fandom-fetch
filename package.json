@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "^14.1.2"
+  },
+  "name": "fandom-fetch",
+  "description": "A simple node script that uses Mediawiki API and discord.js to fetch recent updates of a Wikia and post it in a discord channel.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dark-Zeus/fandom-fetch.git"
+  },
+  "author": "DarkZeus2002",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dark-Zeus/fandom-fetch/issues"
+  },
+  "homepage": "https://github.com/Dark-Zeus/fandom-fetch#readme"
+}
