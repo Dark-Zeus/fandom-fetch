@@ -7,13 +7,17 @@
   "description": "A simple node script that uses Mediawiki API and discord.js to fetch recent updates of a Wikia and post it in a discord channel.",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
+<<<<<<< Updated upstream
 	"test": "test.js",
 	"start": "node index.js"
   },
   "engines": {
     "node": "16.0.0"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+>>>>>>> Stashed changes
   },
   "repository": {
     "type": "git",
