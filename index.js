@@ -8,9 +8,9 @@
 const { EmbedBuilder, WebhookClient } = require('discord.js');
 const axios = require('axios');
 
-/*URLs*/
-url = 'https://goodgameempire.fandom.com/'; //URL of the fandom site
-webhook_url = 'https://discord.com/api/webhooks/1006926263887339723/_Jczl9HweqbgjCuS4umEOK4aOp_vN_aMndH5E4gg-ZBaEndlJnESmXf32fz28G0F-Wcc'; // TEST Channel //Discord Webhook URL
+/*URLs / HEROKU VARIABLES*/
+url = process.env.fandom_url; //URL of the fandom site - HEROKU VARIABLE
+webhook_url = process.env.webhook_url; // TEST Channel //Discord Webhook URL
 avatar_img_url = 'https://cdn.discordapp.com/icons/602832237146406914/fbb833356958bbfeafbc8d77f385772a.webp?size=96'; //Discord BOT avatar 
 
 /*Customizables*/
@@ -66,7 +66,7 @@ axios
   });
 }
 
-setInterval(httpGet,1000); //Test mode set to 3.6 secounds //calling the fetch function every 1h
+setInterval(httpGet,3600000); //Test mode set to 3.6 secounds //calling the fetch function every 1h
 
 
 
