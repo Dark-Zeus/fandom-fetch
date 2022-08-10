@@ -17,8 +17,8 @@
     "url": "git+https://github.com/Dark-Zeus/fandom-fetch.git"
   },
   "engines": {
-    "node": "16.x"
-	"npm": "8.x"
+    "node": "16.x",
+    "npm": "8.x"
   },
   "author": "DarkZeus2002",
   "license": "ISC",
