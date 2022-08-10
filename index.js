@@ -8,9 +8,9 @@
 const { EmbedBuilder, WebhookClient } = require('discord.js');
 const axios = require('axios');
 
-/*URLs / HEROKU VARIABLES*/
+/*URLs - HEROKU VARIABLES*/
 url = process.env.fandom_url; //URL of the fandom site - HEROKU VARIABLE
-webhook_url = process.env.webhook_url; // TEST Channel //Discord Webhook URL
+webhook_url = process.env.webhook_url; //Discord Webhook URL - HEROKU VARIABLE
 avatar_img_url = 'https://cdn.discordapp.com/icons/602832237146406914/fbb833356958bbfeafbc8d77f385772a.webp?size=96'; //Discord BOT avatar 
 
 /*Customizables*/
