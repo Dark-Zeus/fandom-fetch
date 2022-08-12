@@ -47,7 +47,7 @@ axios
 		if(msg.newlen==0 && msg.type!= 'log'){
 			msg.type='blank';
 		}
-		s_msg=msg.user + ' has ' + edit_types[msg.type].type + ' ' + msg.title + ' Page at ' + msg.timestamp + ' (UTC)\n' + 'View Changes : ' + url + 'wiki/' + msg.title ;
+		s_msg=msg.user + ' has ' + edit_types[msg.type].type + ' ' + msg.title + ' Page at ' + msg.timestamp + ' (UTC)\n' + 'View Changes : ' + url + 'wiki/' + msg.title.replace(/ /g, "_") ;
 		const embed = new EmbedBuilder()
 		.setTitle('Page '+ edit_types[msg.type].type)
 		.setColor(edit_types[msg.type].color)
